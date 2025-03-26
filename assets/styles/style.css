@@ -79,3 +79,34 @@ section:nth-of-type(2) div:last-child {
     margin-right:100px ;
     gap: 20px;
 }
+
+section:nth-of-type(2) div:last-child img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+section:nth-of-type(3) {
+    text-align: center;
+    padding: 80px 50px;
+    background-color: #dc3545;
+    color: white;
+}
+
+section:nth-of-type(3) h2 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+section:nth-of-type(3) div {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section:nth-of-type(3) p {
+    text-align:left ;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
