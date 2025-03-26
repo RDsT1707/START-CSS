@@ -110,3 +110,40 @@ section:nth-of-type(3) p {
     margin-left: 50px;
 }
 
+section:nth-of-type(4) {
+    text-align: center;
+    padding: 80px 50px;
+}
+
+section:nth-of-type(4) h2 {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: #2c3e50;
+}
+
+section:nth-of-type(4) p {
+    margin: 20px 0;
+    color: #777;
+}
+
+section:nth-of-type(4) hr {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+section:nth-of-type(4) button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+section:nth-of-type(4) button:hover {
+    background-color: #c0392b;
+}
+
