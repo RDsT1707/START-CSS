@@ -1,0 +1,14 @@
+/* 2c3e50 bleu marine
+#dc3545 rouge  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
