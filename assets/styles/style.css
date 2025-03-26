@@ -203,3 +203,10 @@ footer .social-icons a i, footer .social-icons a img {
     color: white;
 }
 
+
+.divCopy{
+    background-color: #1b2733;
+    color: rgba(255, 255, 255, 0.294);
+    display: flex;
+    justify-content: center;
+}
