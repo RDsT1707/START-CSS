@@ -210,3 +210,81 @@ footer .social-icons a i, footer .social-icons a img {
     display: flex;
     justify-content: center;
 }
+
+
+
+/* GSM */
+@media (max-width: 575px) {
+    header, section, footer {
+        padding: 20px;
+    }
+
+    .divH2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section:nth-of-type(2) div:last-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding-left:150px ; */
+        
+    }
+}
+/* Responsive  TABLETTE */
+@media (min-width: 576px) and (max-width: 768px) {
+    header, section, footer {
+        padding: 20px;
+    }
+
+    .divH2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section:nth-of-type(2) div:last-child {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+/* PC  */
+@media (min-width: 769px) and (max-width: 992px) {
+    header, section, footer {
+        padding: 20px;
+    }
+
+    .divH2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section:nth-of-type(2) div:last-child {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+/* GRAND ECRAN  */
+
+@media (min-width: 993px){
+    header, section, footer {
+        padding: 20px;
+    }
+
+    .divH2 {
+        align-items: center;
+    }
+
+    section:nth-of-type(2) div:last-child{
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
