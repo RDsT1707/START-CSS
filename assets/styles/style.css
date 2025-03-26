@@ -34,3 +34,25 @@ header {
     gap: 20px;
 }
 
+/* section rouge */
+section:first-of-type {
+    background-color: #dc3545;
+    color: white;
+    text-align: center;
+    padding: 50px ;
+}
+
+section:first-of-type img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+section:first-of-type h1 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+section:first-of-type p {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
