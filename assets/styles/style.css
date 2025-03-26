@@ -111,25 +111,29 @@ section:nth-of-type(3) p {
 }
 
 section:nth-of-type(4) {
-    text-align: center;
+    
     padding: 80px 50px;
 }
 
 section:nth-of-type(4) h2 {
+    text-align: center;
     margin-bottom: 50px;
     text-transform: uppercase;
     color: #2c3e50;
 }
 
 section:nth-of-type(4) p {
+    padding-left: 400px;
     margin: 20px 0;
     color: #777;
 }
 
 section:nth-of-type(4) hr {
-    border: none;
+    border:none;
     border-bottom: 1px solid #ddd;
     margin: 10px 0;
+    margin-left: 400px;
+    margin-right: 300px;
 }
 
 section:nth-of-type(4) button {
@@ -138,13 +142,9 @@ section:nth-of-type(4) button {
     border: none;
     padding: 10px 30px;
     margin-top: 20px;
+    margin-left: 400px;
     text-transform: uppercase;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-section:nth-of-type(4) button:hover {
-    background-color: #c0392b;
+    
 }
 /* Footer */
 footer {
@@ -167,6 +167,14 @@ footer h6 {
     margin-bottom: 20px;
     text-transform: uppercase;
 }
+.imgBalle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+    filter: brightness(0) invert(1); 
+    padding: 5px; 
+}
 footer img{
     width: 25px;
   
@@ -184,20 +192,20 @@ footer .social-icons {
     margin-top: 20px;
 }
 
-footer .social-icons a {
+footer .social-icons i {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 80px;
-    height: 50px;
-    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    border-radius: 100%;
     border: 2px solid white;
 }
 
 
 
  
-footer .social-icons a i, footer .social-icons a img {
+footer .social-icons a i, footer .social-icons i img {
     width: 25px;
     height: 25px;
     color: white;
@@ -210,7 +218,6 @@ footer .social-icons a i, footer .social-icons a img {
     display: flex;
     justify-content: center;
 }
-
 
 
 /* GSM */
@@ -228,63 +235,66 @@ footer .social-icons a i, footer .social-icons a img {
         display: flex;
         justify-content: center;
         align-items: center;
-        /* padding-left:150px ; */
-        
+    }
+    
+    section:nth-of-type(4) {
+        padding: 20px;
+    }
+
+    section:nth-of-type(4) h2 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    section:nth-of-type(4) p {
+        padding-left: 0;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    section:nth-of-type(4) hr {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    section:nth-of-type(4) button {
+        margin-left: 0;
+        display: block;
+        margin: 20px auto;
     }
 }
-/* Responsive  TABLETTE */
+
+/* Responsive TABLETTE */
 @media (min-width: 576px) and (max-width: 768px) {
-    header, section, footer {
-        padding: 20px;
+    section:nth-of-type(4) p {
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
-    .divH2 {
-        flex-direction: column;
-        align-items: center;
+    section:nth-of-type(4) hr {
+        margin-left: 100px;
+        margin-right: 100px;
     }
 
-    section:nth-of-type(2) div:last-child {
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        
+    section:nth-of-type(4) button {
+        margin-left: 100px;
     }
 }
 
-/* PC  */
+/* PC */
 @media (min-width: 769px) and (max-width: 992px) {
-    header, section, footer {
-        padding: 20px;
+    section:nth-of-type(4) p {
+        padding-left: 200px;
+        padding-right: 200px;
     }
 
-    .divH2 {
-        flex-direction: column;
-        align-items: center;
+    section:nth-of-type(4) hr {
+        margin-left: 200px;
+        margin-right: 200px;
     }
 
-    section:nth-of-type(2) div:last-child {
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        
+    section:nth-of-type(4) button {
+        margin-left: 200px;
     }
 }
-
-/* GRAND ECRAN  */
-
-@media (min-width: 993px){
-    header, section, footer {
-        padding: 20px;
-    }
-
-    .divH2 {
-        align-items: center;
-    }
-
-    section:nth-of-type(2) div:last-child{
-        display: flex;
-        justify-content: center;
-        
-    }
-}
-
